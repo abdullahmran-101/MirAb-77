@@ -32,8 +32,8 @@ class Abdullah:
     location = "Lahore, Pakistan"
     education = "BS Data Science @ UMT — CGPA 3.76 · Dean's Merit ×3"
 
-    experience = "Junior Ml Engineer @Sunsprinkle, AI/Ml Intern @SafexXOlutions  , AI Fellowhsip @ACM UetxDevinc"
-    shipped_systems = 6
+    experience = "Associate Ml Engineer @Sunsprinkle, AI/Ml Intern @SafexXOlutions  , AI Fellowhsip @ACM UetxDevinc"
+    shipped_systems = 7
 
     currently_building = "Hospital Procurement & Inventory Intelligence — AI-Powered Procurement Automation"
     open_to = "AI/ML , Data Science & Software Engineering roles"
