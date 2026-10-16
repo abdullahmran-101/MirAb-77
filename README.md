@@ -1,300 +1,508 @@
-<!-- HEADER BANNER -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,50:1a1a1a,100:2b2b2b&height=220&section=header&text=Abdullah%20Imran&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Data%20Scientist%20%7C%20AI%2FML%20Engineer%20%7C%20Builder%20of%20Things%20That%20Ship&descAlignY=58&descColor=b5b5b5&descSize=16" width="100%"/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020B18,50:0A3D62,100:00FFD1&height=220&section=header&text=ABDULLAH%20IMRAN&fontSize=58&fontColor=ffffff&fontAlignY=38&desc=AI%20%2F%20ML%20Engineer&descSize=22&descAlignY=60&animation=fadeIn" width="100%" />
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=00FFD1&center=true&vCenter=true&width=860&lines=Generative+AI+%7C+Agentic+AI+%7C+Multimodal+Systems;Backend+%26+Intelligent+Systems+Engineering;RAG+Pipelines+%7C+Computer+Vision+%7C+MLOps+%7C+IoT;From+model+to+API+to+production+deployment" alt="Typing SVG" />
+
+<br/>
+
+<a href="https://www.linkedin.com/in/abdullah-imran-211658230"><img src="https://img.shields.io/badge/LinkedIn-Abdullah_Imran-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+<a href="mailto:abdullahmran96@gmail.com"><img src="https://img.shields.io/badge/Email-abdullahmran96@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white"></a>
+<a href="https://github.com/MirAb-77"><img src="https://img.shields.io/badge/GitHub-MirAb--77-181717?style=for-the-badge&logo=github&logoColor=white"></a>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=MirAb-77&label=PROFILE+VIEWS&style=flat-square&color=00FFD1&labelColor=020B18" />
+<img src="https://img.shields.io/badge/Location-Lahore%2C_Pakistan-020B18?style=flat-square&labelColor=0A3D62" />
+<img src="https://img.shields.io/badge/Status-Open_to_Roles_%26_Contracts-00FFD1?style=flat-square&labelColor=020B18" />
+
 </div>
 
-<!-- BADGES (Monochrome Style) -->
-<div align="center">
-  <a href="https://www.linkedin.com/in/abdullah-mir-211658230/">
-    <img src="https://img.shields.io/badge/LinkedIn-1a1a1a?style=for-the-badge&logo=linkedin&logoColor=ffffff"/>
-  </a>
+<br/>
 
-  <a href="mailto:abdullahmran96@gmail.com">
-    <img src="https://img.shields.io/badge/Email-2b2b2b?style=for-the-badge&logo=gmail&logoColor=ffffff"/>
-  </a>
-
-  <a href="https://github.com/MirAb-77">
-    <img src="https://img.shields.io/badge/GitHub-0d0d0d?style=for-the-badge&logo=github&logoColor=ffffff"/>
-  </a>
-
-  <img src="https://komarev.com/ghpvc/?username=MirAb-77&style=for-the-badge&color=2b2b2b&label=PROFILE+VIEWS"/>
-</div>
+<h1 align="center">"BUILD SYSTEMS THAT SURVIVE CONTACT WITH REALITY."</h1>
 
 <br/>
 
 ---
 
-## ◈ &nbsp;Identity
+## Overview
+
+I am an AI/ML Engineer who designs, builds and deploys **end-to-end intelligent systems**: the model, the retrieval layer, the agent logic, the backend API, and the container it ships in. My work sits at the intersection of **large language models, multimodal perception and production backend engineering**.
+
+Most of what I build combines **computer vision** with **language reasoning**, because real-world signals (faces, posture, speech, video, sensor streams) rarely arrive as clean text. I prefer systems that are grounded, explainable and deployable over demonstrations that only work in a notebook.
+
+| | |
+|---|---|
+| **Role** | AI/ML Engineer (Freelance, Remote) |
+| **Specialisation** | Generative AI, Agentic AI, Backend and Intelligent Systems |
+| **Education** | B.S. Data Science, University of Management and Technology, Lahore (GPA 3.76 / 4.00, Dean's Merit Award x4) |
+| **Core domains** | LLM applications, RAG, multimodal fusion, computer vision, workflow automation, MLOps, IoT |
+| **Base** | Lahore, Pakistan (remote-first) |
 
 ```python
-class Abdullah:
-    name = "Abdullah Imran"
-    location = "Lahore, Pakistan"
-    education = "BS Data Science @ UMT — CGPA 3.76 · Dean's Merit ×3"
+class AbdullahImran:
+    """Engineer profile: runtime summary."""
 
-    experience = "Associate Ml Engineer @Sunsprinkle, AI/Ml Intern @SafexXOlutions  , AI Fellowhsip @ACM UetxDevinc"
-    shipped_systems = 7
+    role        = "AI/ML Engineer"
+    paradigms   = ["agentic", "multimodal", "retrieval-grounded"]
+    languages   = ["Python", "SQL", "JavaScript"]
+    ships       = ["FastAPI services", "Dockerised pipelines", "n8n automations"]
+    principle   = "Grounded outputs. Observable agents. Deployable by default."
 
-    currently_building = "Hospital Procurement & Inventory Intelligence — AI-Powered Procurement Automation"
-    open_to = "AI/ML , Data Science & Software Engineering roles"
-    mindset = "Products should ship, not sit in notebooks"
+    def solve(self, problem):
+        signal    = self.perceive(problem)        # CV, speech, text, sensors
+        context   = self.retrieve(signal)         # FAISS / ChromaDB + reranking
+        decision  = self.reason(signal, context)  # LLM + policy gates
+        return self.deploy(decision)              # API, container, monitoring
 ```
 
 ---
 
-## ⬡ &nbsp;Stats at a glance
+## Engineering Principles
 
-<div align="center">
-
-| ⬡ 6 Live Systems | Certififed Data Scientist | ◇ 3.76 GPA | Motivated to Lean and Grow 
-|:---:|:---:|:---:|:---:|
-
-</div>
+| Principle | How it shows up in my work |
+|---|---|
+| **Grounding over fluency** | Retrieval-augmented generation with reranking; citation-enforcement in Research Forge AI so every claim traces to a source |
+| **Safety gates before generation** | HealMatrix AI runs crisis detection ahead of the LLM, so high-risk input is escalated rather than improvised on |
+| **Observable agents** | AgentFlow AI streams live tool-call traces over SSE, so reasoning is inspectable instead of opaque |
+| **Provider independence** | Smart model routing across Groq, Gemini and OpenRouter avoids single-vendor lock-in and rate-limit failure |
+| **Multimodal by default** | Face, posture, voice and text are fused as signals, not treated as separate demos |
+| **Resilient automation** | n8n workflows ship with retry logic on HTTP nodes and a dedicated error-notifier workflow with email alerts |
+| **Incremental delivery** | Complex platforms are built in progressively harder versions, each one working end to end |
 
 ---
 
-## ⬠ &nbsp;ML Pipeline — How I work
+## Technical Skill Matrix
+
+| Layer | Technologies |
+|---|---|
+| **Languages** | Python, SQL, JavaScript |
+| **LLM and GenAI** | Groq (LLaMA 3.3 70B), Google Gemini, OpenAI, Grok (xAI), OpenRouter, prompt and policy design, structured outputs |
+| **Agents and orchestration** | LangGraph (ReAct agents), multi-agent routing, tool calling, persistent agent memory, n8n, Zapier |
+| **Retrieval (RAG)** | FAISS, ChromaDB, BGE embeddings, cross-encoder reranking, TF-IDF and keyword retrieval, document RAG without external vector stores |
+| **Deep learning** | PyTorch, TensorFlow, Hugging Face Transformers, fine-tuned RoBERTa, KeypointRCNN |
+| **Computer vision** | YOLOv12, MediaPipe (pose and gaze), OpenCV, FER (facial emotion recognition) |
+| **Speech** | Whisper (Groq), gTTS, ElevenLabs voice synthesis |
+| **Classical ML and data** | scikit-learn, Pandas, NumPy, feature engineering, predictive analytics, forecasting |
+| **Backend** | FastAPI, Django, Celery, Redis, SSE streaming, REST API design, API-key authentication |
+| **Databases** | PostgreSQL, SQLite, Redis, Airtable, NoSQL, pgvector (planned) |
+| **Deployment and ops** | Docker, Docker Compose, VPS deployment, code-server, Git and GitHub workflows |
+| **Frontends and demos** | Gradio, Streamlit, custom HTML/CSS/JS interfaces, VS Code extensions |
+
+---
+
+## Capability Charts
+
+### Self-assessed proficiency by discipline
+
+```mermaid
+xychart-beta
+    title "Proficiency by Discipline (self-assessed, out of 100)"
+    x-axis ["Python", "LLM Apps", "RAG", "FastAPI", "Agents", "CV", "Docker", "MLOps", "SQL", "Django"]
+    y-axis "Level" 0 --> 100
+    bar [92, 90, 88, 86, 85, 82, 78, 72, 78, 76]
+```
+
+### Portfolio composition by domain (12 shipped projects)
+
+```mermaid
+pie showData
+    title Project Distribution by Domain
+    "Agents and Automation" : 3
+    "RAG and LLM Applications" : 3
+    "Computer Vision and Security" : 3
+    "Healthcare Multimodal AI" : 2
+    "Predictive ML and Fraud" : 1
+```
+
+### Primary toolchain share
+
+```mermaid
+pie showData
+    title Toolchain Emphasis
+    "Python and ML frameworks" : 35
+    "LLM APIs and agents" : 25
+    "Backend and APIs" : 20
+    "Retrieval and data stores" : 12
+    "DevOps and automation" : 8
+```
+
+> The three charts above are my own estimates, intended to show emphasis rather than a formal benchmark.
+
+---
+
+## Flagship Systems: Technical Deep Dives
+
+### 1. HealMatrix AI: multimodal, crisis-gated mental health assistant
+
+**Final-year project.** Fuses four signal channels into a single reasoning pipeline with a safety gate ahead of generation.
 
 ```mermaid
 flowchart LR
-    A([Raw Data]) --> B([EDA & Cleaning])
-    B --> C([Feature Engineering])
-    C --> D([Model Training])
-    D --> E([Evaluation & Tuning])
-    E --> F{Meets bar?}
-    F -- No --> C
-    F -- Yes --> G([Deploy])
-    G --> H([Live System])
-    H --> I([Monitor & Iterate])
-    I --> B
-
-    style A fill:#0d1117,stroke:#58a6ff,color:#e6edf3
-    style G fill:#0d1117,stroke:#3fb950,color:#e6edf3
-    style H fill:#0d1117,stroke:#3fb950,color:#e6edf3
-    style F fill:#0d1117,stroke:#f78166,color:#e6edf3
+    subgraph IN[Input Channels]
+        T[Text]
+        V[Voice<br/>Whisper]
+        F[Face<br/>FER]
+        P[Posture<br/>KeypointRCNN]
+    end
+    T --> FUS[Multimodal<br/>Signal Fusion]
+    V --> FUS
+    F --> FUS
+    P --> FUS
+    FUS --> CLS[Emotion Classifier<br/>RoBERTa fine-tuned]
+    CLS --> GATE{Crisis Gate}
+    GATE -- high risk --> ESC[ESCALATE<br/>Twilio + Maps]
+    GATE -- standard --> RAG[RAG Retrieval<br/>FAISS + BGE<br/>Cross-encoder rerank]
+    RAG --> LLM[Groq LLaMA 3.3 70B]
+    LLM --> POL[Decision Engine]
+    POL --> OUT[Response + gTTS voice]
 ```
 
-## ⬟ &nbsp; Skill radar
+| Decision class | Intent |
+|---|---|
+| `ESCALATE` | Immediate crisis response and external contact pathway |
+| `REASSURE` | Calming, stabilising response |
+| `GUIDE` | Structured coping guidance |
+| `REFER_THERAPIST` | Referral with location support |
+| `MOTIVATE` | Encouragement-oriented response |
+| `ASSESS` | Further questioning before committing to an action |
 
+**Stack:** PyTorch, FER, KeypointRCNN, RoBERTa, FAISS, BGE embeddings, cross-encoder reranking, Groq LLaMA 3.3 70B, Groq Whisper, gTTS, Twilio, Google Maps API, FastAPI, Docker.
+**Repository:** [Heal-Matrix-AI](https://github.com/MirAb-77/Heal-Matrix-AI)
+
+---
+
+### 2. Cheatify: real-time AI exam proctoring
 
 ```mermaid
-%%{init: {'theme': 'dark'}}%%
 flowchart LR
-
-DF[🟦 Data Foundation] --> ML[🟩 Machine Learning] --> AI[🟪 Deep AI Systems] --> ENG[🟧 ML Engineering]
-
-DF --> SQL[SQL & Analytics]
-DF --> DE[Data Engineering]
-
-ML --> STAT[Statistics & ML]
-ML --> PY[Python DS]
-
-AI --> DL[Deep Learning]
-AI --> CV[Computer Vision]
-AI --> LLM[LLMs & RAG]
-
-ENG --> MLOPS[MLOps]
-ENG --> DEPLOY[Deployment Systems]
-
+    CAM[Webcam Stream] --> DET[YOLOv12<br/>Object Detection]
+    CAM --> POSE[MediaPipe<br/>Pose and Gaze]
+    DET --> EVT[Event Extraction<br/>phone, extra person, absence]
+    POSE --> EVT2[Behaviour Signals<br/>gaze deviation, head pose]
+    EVT --> SCORE[Risk Scoring Engine]
+    EVT2 --> SCORE
+    SCORE --> DASH[Live Per-Candidate<br/>Risk Score]
 ```
 
+Combines object detection with pose and gaze estimation to produce a continuously updated risk score per candidate.
+**Repository:** [Cheatify-AI-Proctoring-System](https://github.com/MirAb-77/Cheatify-AI-Proctoring-System)
 
-## ⬟ &nbsp;What I bring
+---
+
+### 3. Research Forge AI: self-hosted research-to-report pipeline
+
+A five-stage asynchronous pipeline that converts a question into a citation-backed report, with no dependence on a hosted search API.
 
 ```mermaid
-mindmap
-  root((Abdullah))
-    End-to-End ML
-      Data ingestion & EDA
-      Feature engineering
-      Model training & eval
-      Deployment & monitoring
-    Computer Vision
-      CNNs · ResNet · EfficientNet
-      YOLOv8 object detection
-      OpenCV pipelines
-      Real-time inference
-    LLMs & NLP
-      RAG systems
-      Prompt engineering
-      LLM API integration
-      Multimodal AI pipelines
-    MLOps & Tooling
-      MLflow experiment tracking
-      FastAPI serving
-      Streamlit deployment
-      CI/CD pipelines
-    Analytics
-      Power BI dashboards
-      Statistical modeling
-      EDA & visualization
-      XGBoost · scikit-learn
+flowchart TD
+    Q[User Question] --> S1[Stage 1<br/>Query Planning]
+    S1 --> S2[Stage 2<br/>SearXNG Web Search]
+    S2 --> S3[Stage 3<br/>Fetch and Chunk]
+    S3 --> S4[Stage 4<br/>ChromaDB Embedding<br/>and Retrieval]
+    S4 --> S5[Stage 5<br/>Synthesis +<br/>Citation Enforcement]
+    S5 --> R[Cited Report]
+    CEL[Celery + Redis<br/>Async Workers] -.orchestrates.-> S2
+    CEL -.orchestrates.-> S3
+    CEL -.orchestrates.-> S4
+    DJ[Django Orchestration] -.controls.-> CEL
+```
+
+**Stack:** SearXNG, ChromaDB, Celery, Redis, Django, Docker.
+**Repository:** [Research-Forge-AI](https://github.com/MirAb-77/Research-Forge-AI)
+
+---
+
+### 4. AgentFlow AI: multi-agent platform with inspectable reasoning
+
+```mermaid
+sequenceDiagram
+    participant U as User
+    participant API as FastAPI + SSE
+    participant R as Model Router
+    participant A as ReAct Agent
+    participant T as Tools / RAG
+    participant M as Memory (SQLite)
+
+    U->>API: Message
+    API->>R: Select provider
+    R-->>API: Groq / Gemini / OpenRouter
+    API->>A: Run agent loop
+    loop Reason and Act
+        A->>T: Tool call
+        T-->>A: Observation
+        A-->>U: Live trace (SSE)
+    end
+    A->>M: Persist session state
+    A-->>U: Final answer
+```
+
+Key capabilities: ReAct reasoning loop, persistent memory, provider routing with failover, document RAG without an external vector database, and a usage analytics dashboard.
+**Repository:** [Agentflow-AI](https://github.com/MirAb-77/Agentflow-AI)
+
+---
+
+### 5. Hospital Procurement and Inventory Intelligence Platform (in progress)
+
+An AI-driven procurement system that turns raw inventory data into approved purchase orders.
+
+```mermaid
+flowchart LR
+    INV[Inventory Data] --> FC[Demand Forecasting<br/>7-day rolling average]
+    FC --> SH[Shortage and<br/>Risk Detection]
+    SH --> SUP[Supplier Selection<br/>price + reliability score]
+    SUP --> AI[AI Recommendation<br/>Groq LLaMA 3.3 70B]
+    AI --> APP{Manager<br/>Approval}
+    APP --> PO[Purchase Order]
+    PO --> DEL[Delivery Tracking]
+    DEL --> INV
+```
+
+| Version | Scope | Status |
+|---|---|---|
+| **V1** | FastAPI backend, Postgres schema, n8n workflows for shortage detection, AI recommendation, PO creation and approval, HTTP retry logic, error-notifier workflow | Complete |
+| **V2** | Demand forecasting (`usage_logs`, rolling average endpoints), weighted supplier reliability scoring from on-time rate and price competitiveness, composite supplier selection, weekly scoring workflow | Complete |
+| **V3 to V5** | Document automation, multi-agent layer, Next.js dashboard, RBAC, multi-tenancy, monitoring, production SaaS hardening | Planned |
+
+**Planned stack:** n8n, FastAPI, PostgreSQL, Redis, pgvector, Next.js, Docker.
+
+---
+
+## Implementation Patterns
+
+Representative patterns from my codebase style (simplified for illustration).
+
+**Provider routing with failover**
+
+```python
+MODEL_REGISTRY = {
+    "fast":      [("groq", "llama-3.3-70b-versatile"), ("gemini", "gemini-flash")],
+    "reasoning": [("gemini", "gemini-pro"), ("openrouter", "auto")],
+}
+
+async def route(task: str, messages: list[dict]) -> str:
+    for provider, model in MODEL_REGISTRY[task]:
+        try:
+            return await PROVIDERS[provider].complete(model, messages, timeout=20)
+        except (RateLimitError, TimeoutError):
+            continue                      # fail over to the next provider
+    raise ServiceUnavailable("all providers exhausted")
+```
+
+**Safety gate ahead of generation**
+
+```python
+def respond(signal: FusedSignal, query: str) -> Response:
+    risk = crisis_score(signal)                 # fused text, face, voice, posture
+    if risk >= CRISIS_THRESHOLD:
+        return escalate(signal)                 # bypass generation entirely
+    context = reranker.rank(query, retriever.search(query, k=20))[:5]
+    return decide(llm.generate(query, context), signal)
+```
+
+**Streaming agent trace over SSE**
+
+```python
+@app.get("/chat/stream")
+async def stream(session_id: str, q: str):
+    async def events():
+        async for step in agent.astream({"input": q}, session=session_id):
+            yield f"event: {step.kind}\ndata: {step.json()}\n\n"   # thought, tool, observation
+    return StreamingResponse(events(), media_type="text/event-stream")
 ```
 
 ---
 
-## ◇ &nbsp;Featured projects
+## Reference Architecture
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### ⬡ &nbsp;MalVision AI &nbsp;—&nbsp; Malware Intelligence Platform
-
-CNN pipeline converting PE executable binaries into image representations for automated malware classification across 10 families.
-
-- **98% accuracy** on PE file detection
-- **88% F1 score** on image-based detection
-- `Python` `TensorFlow` `Keras` `OpenCV` `Streamlit`
-
-[![Live Demo](https://img.shields.io/badge/Live_Demo-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://malvision99.streamlit.app/)
-
-</td>
-<td width="50%" valign="top">
-
-### ◈ &nbsp;VITA &nbsp;—&nbsp; Multimodal Clinical AI
-
-Combines LLMs, RAG, and computer vision for real-time symptom analysis and medical information retrieval. Evaluated on 25 sample cases.
-
-- Full multimodal pipeline: image + text + knowledge base
-- `Python` `LLMs` `RAG` `Computer Vision` `Streamlit`
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MirAb-77/AI-Doctor-2.0)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### ◎ &nbsp;Cheatify AI &nbsp;—&nbsp; Real-Time Proctoring
-
-YOLOv8-based proctoring engine detecting suspicious behaviour during online exams with production-grade latency.
-
-- **45ms** inference latency
-- `Python` `YOLOv8` `OpenCV` `JavaScript` `Netlify`
-
-[![Live Demo](https://img.shields.io/badge/Live_Demo-00C7B7?style=flat-square&logo=netlify&logoColor=white)](https://cheatifyexam.netlify.app/)
-
-</td>
-<td width="50%" valign="top">
-
-### ⬟ &nbsp;IntelliFall AI &nbsp;—&nbsp; Smart Fall Detection
-
-IoT-integrated real-time fall detection for elderly care with automated emergency response triggering.
-
-- **97% recall · 96% precision**
-- `Python` `YOLOv8` `OpenCV` `IoT`
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MirAb-77/IntelliFall-Real-Time-Human-Fall-Detection-Using-Computer-Vision)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### ⬠ &nbsp;FraudShield AI &nbsp;—&nbsp; Fraud Detection
-
-Explainable fraud detection pipeline with feature importance surfaced via interactive Power BI dashboards.
-
-- **89% accuracy** on real-world-like dataset
-- `Python` `XGBoost` `scikit-learn` `Power BI`
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/MirAb-77/Credit-Card-Fraud)
-
-</td>
-<td width="50%" valign="top">
-
-### ◇ &nbsp;QuickByte AI &nbsp;—&nbsp; Nutrition Intelligence
-
-Full-stack LLM-powered assistant generating personalised meal plans via prompt-engineered API calls — live and in daily use.
-
-- Real users · fully deployed
-- `JavaScript` `LLM APIs` `Netlify` `Prompt Engineering`
-
-[![Live Demo](https://img.shields.io/badge/Live_Demo-00C7B7?style=flat-square&logo=netlify&logoColor=white)](https://zesty-crepe-1f434a.netlify.app/)
-
-</td>
-</tr>
-</table>
-
----
-
-## ◈ &nbsp;Tech stack
-
-<div align="center">
-
-**Core ML & AI**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-
-**Deployment & Engineering**
-
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
-![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
-![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-
-**Analytics & Visualisation**
-
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
-
-</div>
-
----
-
-## ⬡ &nbsp;GitHub stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MirAb-77&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=030712&title_color=58a6ff&icon_color=3fb950&text_color=e6edf3" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MirAb-77&layout=compact&theme=tokyonight&hide_border=true&bg_color=030712&title_color=58a6ff&text_color=e6edf3" height="170"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MirAb-77&theme=tokyonight&hide_border=true&background=030712&ring=58a6ff&fire=f78166&currStreakLabel=58a6ff" width="55%"/>
-</div>
-
----
-
-## ⬟ &nbsp;Certifications
-
-```
-⬡  IBM  ────────────────────  Generative AI Engineering with LLMs
-⬡  IBM  ────────────────────  Data Science Professional Certificate
-◈  DeepLearning.AI  ────────  Deep Learning Specialization
-◎  DataCamp  ───────────────  AI Engineer for Data Scientists
-◎  DataCamp  ───────────────  Certified Data Scientist
-⬠  Microsoft  ──────────────  Power BI Data Analyst
-◇  Google  ─────────────────  Advanced Data Analytics
+```mermaid
+flowchart TB
+    subgraph L1[Perception Layer]
+        A1[Computer Vision<br/>YOLO, MediaPipe, FER]
+        A2[Speech<br/>Whisper]
+        A3[Text and Documents]
+    end
+    subgraph L2[Knowledge Layer]
+        B1[Embeddings<br/>BGE]
+        B2[Vector Stores<br/>FAISS, ChromaDB, pgvector]
+        B3[Rerankers]
+    end
+    subgraph L3[Reasoning Layer]
+        C1[LLM Router<br/>Groq, Gemini, OpenAI, OpenRouter]
+        C2[Agents<br/>LangGraph ReAct]
+        C3[Policy and Safety Gates]
+    end
+    subgraph L4[Service Layer]
+        D1[FastAPI / Django]
+        D2[Celery + Redis]
+        D3[n8n Workflows]
+    end
+    subgraph L5[Delivery Layer]
+        E1[Docker]
+        E2[VPS / Cloud]
+        E3[Web UI, Gradio, Streamlit, VS Code]
+    end
+    L1 --> L2 --> L3 --> L4 --> L5
 ```
 
 ---
 
-## ◎ &nbsp;Currently
+## Complete Project Catalogue
 
-> **⬡ Building:** Cursor-like AI coding assistant — VS Code extension backed by FastAPI + Gemini / Groq / OpenRouter
->
-> **◈ Open to:** AI/ML & Software Engineering roles in Lahore
->
-> **◇ Going deep on:** Production ML system design · LLM agent architectures · VS Code extension APIs
+| Project | Domain | Description | Key technologies |
+|---|---|---|---|
+| **HealMatrix AI** | Healthcare, multimodal | Crisis-gated mental health assistant fusing text, voice, face and posture | LLaMA 3.3 70B, FAISS, RoBERTa, FastAPI |
+| **VITA** | Healthcare, multimodal | Clinical decision support from speech and visual symptom input | Transformer fusion, ElevenLabs |
+| **Cheatify** | Computer vision | Exam proctoring with live per-candidate risk score | YOLOv12, MediaPipe |
+| **IntelliFall AI** | CV and IoT | Fall detection system | CV, IoT |
+| **MalVision AI** | Security, XAI | Explainable malware detection and threat intelligence dashboard | Streamlit, explainability |
+| **Research Forge AI** | RAG, research | Question to citation-backed report, fully self-hosted | SearXNG, ChromaDB, Celery |
+| **AgentFlow AI** | Agents | Multi-provider ReAct platform with live trace and memory | LangGraph, SSE, SQLite |
+| **Pocho AI** | RAG | Admissions FAQ assistant grounded in retrieved documents | Django, TF-IDF, Grok |
+| **QuickByte AI** | LLM application | Nutrition-focused LLM platform | LLM APIs |
+| **WhatsAgent AI** | Automation | Autonomous WhatsApp customer support agent | n8n, Twilio, Airtable |
+| **Quantifier AI** | Automation | Lead scoring (0 to 100) with HOT, WARM, COLD tiers | n8n, GPT, Sheets, Gmail |
+| **FraudShield AI** | Predictive ML | Fraud detection | scikit-learn |
 
 ---
 
-<!-- FOOTER BANNER -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=ffffff&height=140&section=footer&text=Let%27s%20build%20something%20that%20matters&fontSize=18&fontColor=ffffff&animation=fadeIn" width="100%"/>
-</div>
+## Active Development
+
+```diff
++ Hospital Procurement Intelligence Platform     V2 complete, V3 in planning
++ AI Coding Assistant                            VS Code extension + FastAPI multi-LLM router (Phase 2 of 10 complete)
++ Lahori                                         Lahore food discovery platform
+```
+
+**AI Coding Assistant architecture**
+
+```mermaid
+flowchart LR
+    EXT[VS Code Extension<br/>inside code-server] --> API[FastAPI Gateway<br/>API-key auth]
+    API --> REG[MODEL_REGISTRY]
+    REG --> G[Gemini]
+    REG --> Q[Groq / Llama]
+    REG --> O[OpenRouter]
+```
+
+---
+
+## Professional Timeline
+
+```mermaid
+timeline
+    title Career and Education Timeline
+    2019 - 2021 : Intermediate in Computer Science, GCU Lahore
+    2022 : Begins B.S. Data Science, UMT Lahore
+    2024 : AI/ML Fellow, ACM UET x DevSinc
+         : ML Core Team, UMT GoDoc
+    2025 : Healthcare analytics and pipeline automation delivered
+    2026 : B.S. Data Science completed
+         : AI/ML Intern, Safe X Solutions
+         : Freelance AI/ML Engineer
+```
+
+### Experience
+
+| Role | Organisation | Period | Contribution |
+|---|---|---|---|
+| **Freelance AI/ML Engineer** | Self-employed, Remote | Feb 2026 to Present | End-to-end LLM applications, RAG pipelines, AI agents, backend APIs, automation |
+| **AI/ML Intern** | Safe X Solutions, Remote | Apr 2026 to Jul 2026 | Classification and regression models, feature engineering, predictive analytics |
+| **AI/ML Fellow** | ACM UET x DevSinc | Jul 2024 to Feb 2025 | Healthcare predictive analytics with a **90% accuracy** body-fat prediction model; automated ML pipeline delivering **30% faster** processing |
+| **ML Core Team Member** | UMT GoDoc | Oct 2024 to Nov 2025 | Data preprocessing, predictive modelling, ML workflow implementation |
+
+---
+
+## Education and Certifications
+
+**University of Management and Technology (UMT), Lahore**
+B.S. in Data Science, Oct 2022 to Jun 2026. GPA **3.76 / 4.00**. Dean's Merit Award, four times.
+
+**Government College University (GCU), Lahore**
+Intermediate of Computer Science, Aug 2019 to Apr 2021.
+
+| Certification | Issuer |
+|---|---|
+| Deep Learning Specialization | DeepLearning.AI (Coursera) |
+| Generative AI Engineering with LLMs Specialization | IBM (Coursera) |
+| IBM Data Science Professional Certificate | IBM (Coursera) |
+| Google Data Analytics Professional Certificate | Google (Coursera) |
+| AI Engineer for Data Scientists Associate | DataCamp |
+| Data Scientist Certification | DataCamp |
+
+---
+
+## Research and Technology Directions
+
+| Direction | Focus |
+|---|---|
+| **Agentic AI** | Multi-agent orchestration, tool use, persistent memory, observable reasoning traces |
+| **Multimodal reasoning** | Fusing vision, speech and language into a single decision pipeline |
+| **Clinical and healthcare AI** | Decision support, triage, mental-health assistance with safety constraints |
+| **Explainable and trustworthy AI** | Interpretable detection, citation-grounded generation, auditable decisions |
+| **Edge AI and IoT** | Real-time inference for monitoring and detection scenarios |
+| **Production MLOps** | Containerised, monitored, multi-tenant AI services |
+| **Enterprise automation** | LLM-driven workflows for procurement, support and lead operations |
+
+<br/>
+
+<h1 align="center">"THE MODEL IS THE EASY PART. THE SYSTEM AROUND IT IS THE PRODUCT."</h1>
+
+<br/>
+
+---
+
+## GitHub Analytics
 
 <div align="center">
-  <b>mir.abdullah.701@gmail.com</b> &nbsp;·&nbsp; Lahore, Pakistan &nbsp;·&nbsp;
-  <a href="https://github.com/MirAb-77">github.com/MirAb-77</a>
+
+<img height="190" src="https://github-readme-stats.vercel.app/api/?username=MirAb-77&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
+<img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MirAb-77&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+
+<br/>
+
+<img src="https://streak-stats.demolab.com/?user=MirAb-77&theme=tokyonight&hide_border=true" />
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=MirAb-77&theme=react-dark&hide_border=true&area=true&color=00FFD1&line=00FFD1&point_color=ffffff" width="100%" />
+
+<br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=MirAb-77&theme=onedark&row=1&margin-w=15&no-frame=true" />
+
+<br/>
+
+<img src="https://github-readme-stats.vercel.app/api/wakatime?username=MirAb-77&theme=tokyonight&hide_border=true&layout=compact" />
+
 </div>
+
+---
+
+## Engagement Models
+
+| Engagement | Scope | Typical deliverable |
+|---|---|---|
+| **Full-time role** | AI/ML engineering, applied GenAI, backend intelligence | Production services and models |
+| **Contract build** | RAG systems, agents, LLM applications, computer vision pipelines | Deployed, documented system |
+| **Automation** | n8n and Zapier workflows with LLM decision steps | Resilient workflow with error handling |
+| **Prototype to production** | Taking a notebook or demo to an API and container | FastAPI service with Docker deployment |
+
+---
+
+## Contact
+
+| Channel | Details |
+|---|---|
+| **Email** | abdullahmran96@gmail.com |
+| **Phone** | +92 316 400 9363 |
+| **LinkedIn** | [linkedin.com/in/abdullah-imran-211658230](https://www.linkedin.com/in/abdullah-imran-211658230) |
+| **GitHub** | [github.com/MirAb-77](https://github.com/MirAb-77) |
+| **Location** | Lahore, Pakistan (open to remote) |
+
+<br/>
+
+<h1 align="center">"SHIP IT. MEASURE IT. MAKE IT BETTER."</h1>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFD1,50:0A3D62,100:020B18&height=120&section=footer" width="100%" />
